@@ -20,7 +20,7 @@ if not os.path.isdir(output_dir):
 
 # Load input configuration file for turbine selection
 input_dir = os.path.join(root_dir, 'inputs')
-input_file = 'IEA3p4MW.yaml' # IEA15MW.yaml or IEA3p4MW.yaml 
+input_file = 'NREL3p4MW.yaml' # IEA15MW.yaml or IEA3p4MW.yaml 
 
 #parameter_filename = os.path.join(tune_dir,'NREL5MW.yaml')
 inps = load_rosco_yaml(os.path.join(input_dir, input_file))
